@@ -1,0 +1,214 @@
+.container_1 {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.curtain_flex {
+  display: flex;
+  justify-content: center;
+}
+
+#passport {
+  padding-top: 70px;
+}
+
+.caption {
+  /* text-align: justify; */
+  font-size: 16px;
+  min-height: 110px;
+}
+
+.heading {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.img_wedding {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.price {
+  color: white;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.price p {
+  margin-bottom: 0;
+}
+
+.caption1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Lato';
+}
+
+.row {
+  max-width: 100%;
+}
+
+.container_1 {
+  width: 100%;
+}
+h4{
+  color: #b99974;
+}
+
+/**/
+.tabs {
+  background: #283B28;
+  color: #efedef;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 100px;
+}
+
+.tabs h1 {
+  font-size: 40px;
+  line-height: 0.8em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.tabs {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tabs [class^="tab"] label,
+.tabs [class*=" tab"] label {
+  color: #efedef;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1em;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.tabs [class^="tab"] [type="radio"],
+.tabs [class*=" tab"] [type="radio"] {
+  border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+.tabs [class*=" tab"] [type="radio"]:hover,
+.tabs [class*=" tab"] [type="radio"]:focus {
+  border-bottom: 1px solid #99574B;
+}
+
+.tabs [class^="tab"] [type="radio"]:checked,
+.tabs [class*=" tab"] [type="radio"]:checked {
+  border-bottom: 2px solid #99574B;
+}
+
+.tabs [class^="tab"] [type="radio"]:checked+div,
+.tabs [class*=" tab"] [type="radio"]:checked+div {
+  opacity: 1;
+}
+
+.tabs [class^="tab"] [type="radio"]+div,
+.tabs [class*=" tab"] [type="radio"]+div {
+  display: block;
+  opacity: 0;
+  padding: 2rem 0;
+  width: 90%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs .tab-2 {
+  width: 50%;
+}
+
+.tabs .tab-2 [type="radio"]+div {
+  width: 200%;
+  margin-left: 200%;
+}
+
+.tabs .tab-2 [type="radio"]:checked+div {
+  margin-left: 0;
+}
+
+.tabs .tab-2:last-child [type="radio"]+div {
+  margin-left: 100%;
+}
+
+.tabs .tab-2:last-child [type="radio"]:checked+div {
+  margin-left: -100%;
+}
+.connect{
+  margin-top: 170px;
+}
+@media (max-width: 740px) {
+  .tabs {
+      padding: 60px;
+  }
+}
+@media (min-width: 580px) and (max-width: 740px) {
+  .tabs {
+      padding: 40px;
+  }
+}
+@media (min-width: 360px) and (max-width: 580px) {
+  .tabs {
+      padding: 15px;
+  }
+  .tabs [class^="tab"] label, .tabs [class*=" tab"] label {
+      font-size:1.2em;
+  }
+}
+@media (max-width: 360px) {
+  .tabs {
+      padding: 11px;
+  }
+  .tabs [class^="tab"] label, .tabs [class*=" tab"] label {
+      font-size:0.8em;
+  }
+
+}

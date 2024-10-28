@@ -1,0 +1,110 @@
+@primary: #212529;
+@secondary: rgba(79, 16, 173, 0.6);
+@secondary_opas: rgba(79, 16, 173, 0);
+@color_primary: #102746;
+@color_btn: #9f80cc;
+@color_secondary: #fff;
+@bg_contrast: #FFE500;
+@font_family: 'Lato', sans-serif;
+@url: "./img/";
+@container: 1110px;
+@padding-right: 22px;
+
+body {
+  font-family: Lato;
+  margin: 0;
+}
+
+.container {
+  max-width: @container;
+  margin: auto;
+}
+
+.title {
+  color: @color_secondary;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 800px;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: @font_family;
+  padding: 11px 23px;
+
+  &_purple {
+    color: @color_secondary;
+    background: @primary;
+  }
+
+  &_white {
+    border-radius: 6px;
+    color: @primary;
+    background: @color_secondary;
+    text-transform: uppercase;
+  }
+  &_purple2{
+    border-radius: 6px;
+    color: @color_secondary;
+    background: @color_btn;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    color: @secondary;
+  }
+}
+.button_purple:hover {
+    color: @color_btn;
+}
+a {
+  color: @color_secondary;
+}
+
+a:hover {
+  color: @color_btn;
+}
+
+.main_menu {
+  background: @primary;
+}
+
+header li {
+  padding-right: @padding-right;
+}
+
+.excerpt {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: @color_primary;
+}
+
+.tagline {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: @color_primary;
+}
+
+.link {
+  font-size: 14px;
+  color: @color_btn;
+}
+html {
+scroll-behavior: smooth;
+}

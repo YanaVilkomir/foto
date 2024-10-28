@@ -1,0 +1,13 @@
+.main_content{
+  margin-top: 95px;
+}
+.main_content img {
+max-height: 155px;
+  width: 100%;
+}
+.border{
+  border-bottom: 1px solid grey;
+}
+.link{
+  cursor: pointer;
+}

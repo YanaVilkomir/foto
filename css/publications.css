@@ -1,0 +1,278 @@
+
+
+.card_2 {
+  flex-wrap: wrap;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card {
+  margin-left: -7.5px;
+}
+
+.card_3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.row_header {
+  padding: 0 7.5px;
+}
+
+/*Следи за нами в Instagram*/
+.gallery_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+}
+
+.gallery_grid-item {
+  width: 200px;
+  height: 200px;
+}
+
+.gallery_grid-item {
+  background: url(../img/brand_1.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(2) {
+  background: url(../img/brand_2.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(3) {
+  background: url(../img/brand_14.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(4) {
+  background: url(../img/brand_4.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(5) {
+  background: url(../img/brand_5.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(6) {
+  background: url(../img/brand_6.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(7) {
+  background: url(../img/brand_11.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(8) {
+  background: url(../img/brand_8.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(9) {
+  background: url(../img/brand_5.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(10) {
+  background: url(../img/brand_10.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(11) {
+  background: url(../img/brand_11.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(12) {
+  background: url(../img/brand_12.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(13) {
+  background: url(../img/brand_13.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(14) {
+  background: url(../img/brand_14.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(15) {
+  background: url(../img/brand_15.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(16) {
+  background: url(../img/brand_16.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(17) {
+  background: url(../img/brand_17.png) #00BF9C no-repeat;
+}
+
+.gallery_grid-item:nth-child(18) {
+  background: url(../img/brand_18.png) #00BF9C no-repeat;
+}
+
+/*footer*/
+.img_d {
+  z-index: 300;
+}
+
+.img_d img {
+  padding: 95px 40px;
+  width: 100%;
+  background: white;
+}
+
+.img_d2 img {
+  background: white;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.img_d3 {
+  margin-top: -55px;
+}
+
+.img_d3 img {
+  padding: 20px 40px;
+  width: 100%;
+  background: white;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.mar_none {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.desc {
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.fas {
+  color: #7A7B7B;
+  padding-right: 7px;
+}
+
+.text_card {
+  padding-right: 20px;
+}
+
+.text_card {
+  font-size: 14px;
+  line-height: 110%;
+  font-family: 'Play', sans-serif;
+  color: #7A7B7B;
+}
+
+.subtitle_small {
+  font-size: 16px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  color: #7A7B7B;
+}
+
+.vacancy {
+  margin-top: 150px;
+}
+
+.interview {
+
+  margin-top: -100px;
+}
+.container-fluid{
+  margin-top: 20px;
+    background: #4D2982;
+      padding: 100px 0;
+}
+.instagram {
+  margin: 150px 0;
+}
+.subtitle{
+  padding-top: 0px;
+padding-bottom: 0px;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+text-align: left;
+color: #000;
+}
+}
+/*медиа*/
+@media (max-width: 900px) {
+  .interview {
+    padding: 100px 0;
+    margin-top: 0px;
+  }
+
+  .img_d3 {
+    margin-top: 0px;
+  }
+
+  .instagram {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 1435px) {
+  .gallery_grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    margin: 30px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .to_find {
+    width: 100%;
+  }
+
+  .header_text {
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .margins_2 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .main_header {
+    font-size: 55px;
+    line-height: 100%;
+  }
+
+  .vacancy {
+    margin-top: 50px;
+  }
+
+  .header_text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 770px) {
+  .main_header {
+    font-size: 35px;
+    line-height: 100%;
+  }
+
+  .vacancy {
+    margin-top: 95px;
+  }
+}

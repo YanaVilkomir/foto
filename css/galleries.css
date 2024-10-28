@@ -1,0 +1,21 @@
+#flickr img {
+  padding: 10px;
+  width: 50%;
+}
+
+.galleray {
+  display: flex;
+  justify-content: center;
+}
+
+.galleria {
+  width: 800px;
+  height: 400px;
+}
+
+/* .container_content{
+  height: 100vh;
+} */
+#passport {
+    padding-top: 0px;
+}

@@ -1,0 +1,40 @@
+.caption {
+  font-family: "Lato";
+}
+
+.discription {
+  font-family: "Lato";
+  line-height: 2;
+}
+
+.col-7 img {
+  width: 100%;
+  padding: 46px;
+}
+
+.up {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bg {
+  position: absolute;
+  background-color: #a1b5c08a;
+  width: 1466px;
+  height: 390px;
+  left: -530px;
+  top: 470px;
+  z-index: -5;
+}
+
+.footer .col-6:first-child {
+  background: #785E25
+}
+
+.col-5 {
+  padding-top: 67px;
+}
+
+.carousel-item .col-sm-12 img{
+    width: 100%;
+}
